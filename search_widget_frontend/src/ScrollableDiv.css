@@ -1,0 +1,43 @@
+::-webkit-scrollbar {
+  width: 23px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(196, 196, 196, 0.27);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #979797;
+  border-radius: 5px;
+}
+
+.scrollable-div {
+  margin-left: 275px;
+  height: 555px;
+  width: 560px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 22px;
+  border: 2px solid rgba(175, 175, 175, 0.76);
+}
+
+.search-result {
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.14);
+  padding: 25px 42px;
+}
+
+.search-result h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.search-result p {
+  font-size: 17px;
+  margin: 0;
+}
+
+.opacity {
+  opacity: 0;
+}

@@ -1,0 +1,55 @@
+@import url(//db.onlinewebfonts.com/c/040a78b437acd0433612f92e61d04a1b?family=Gilroy-Medium);
+
+.search-bar {
+  background-color: white;
+  height: 103px;
+  width: 837px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Gilroy-Medium";
+}
+
+.dropdown-div {
+  display: flex;
+  align-items: center;
+  margin-left: 32px;
+}
+
+.dropdown-div select {
+  border: none;
+  outline: none;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 15px;
+  margin-right: 0rem;
+  padding: 1rem;
+  padding-right: 2rem;
+
+  font-size: 20px;
+}
+
+.devider {
+  border: 0.5px solid #000000;
+  width: 46px;
+  height: 0px;
+  transform: rotate(90deg);
+}
+
+.search-div {
+  display: flex;
+  align-items: center;
+}
+
+.search-div input {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  margin-left: 30px;
+}
